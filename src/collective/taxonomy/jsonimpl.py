@@ -115,6 +115,9 @@ class ImportJson(BrowserView):
 
                 taxonomy.data[language] = OOBTree()
                 for key, value in data_for_taxonomy:
+                    # prevent from overriding TermIdentifier because of second entry with the same text (key)
+                    if key in taxonomy.data[language] and taxonomy.data[language][key] is not value:
+                        continue
                     taxonomy.data[language][key] = value
 
             return json.dumps({

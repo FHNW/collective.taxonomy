@@ -1,8 +1,8 @@
 Changes
 =======
 
-2.0.0 (unreleased)
-------------------
+2.0.0-post1 (2019-09-18)
+------------------------
 
 - Fix GenericSetup import/export in python3
   [erral]

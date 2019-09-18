@@ -3,7 +3,7 @@ import os
 from setuptools import find_packages
 from setuptools import setup
 
-version = '2.0.0-post1'
+version = '2.0.0.post2.dev0'
 
 
 def read(*pathnames):

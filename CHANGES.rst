@@ -1,8 +1,8 @@
 Changes
 =======
 
-1.4.4.post2 (unreleased)
--------------------
+1.4.4.post2 (2019-10-23)
+------------------------
 
 - Prevent TermIdentifiers from changing after similar entry is added.
 
